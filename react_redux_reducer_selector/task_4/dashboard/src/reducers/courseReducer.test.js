@@ -1,5 +1,5 @@
 import courseReducer from './courseReducer';
-import { FETCH_COURSE_SUCCESS } from '../../task_2/dashboard/src/actions/courseActionTypes';
+import { FETCH_COURSE_SUCCESS } from '../actions/courseActionTypes';
 
 describe('task_4 courseReducer (Immutable + normalizr)', () => {
   it('normalizes and merges course data', () => {

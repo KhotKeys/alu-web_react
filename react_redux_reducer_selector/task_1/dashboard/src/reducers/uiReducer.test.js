@@ -1,5 +1,5 @@
 import uiReducer, { initialState } from './uiReducer';
-import { DISPLAY_NOTIFICATION_DRAWER } from '../../actions/uiActionTypes';
+import { DISPLAY_NOTIFICATION_DRAWER } from '../actions/uiActionTypes';
 
 describe('uiReducer task_1 (Immutable)', () => {
   it('returns initial state as Map when no action', () => {

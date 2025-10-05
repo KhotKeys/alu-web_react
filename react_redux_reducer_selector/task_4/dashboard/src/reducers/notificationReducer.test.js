@@ -1,5 +1,5 @@
 import notificationReducer from './notificationReducer';
-import { FETCH_NOTIFICATIONS_SUCCESS, MARK_AS_READ, SET_TYPE_FILTER } from '../../task_3/dashboard/src/actions/notificationActionTypes';
+import { FETCH_NOTIFICATIONS_SUCCESS, MARK_AS_READ, SET_TYPE_FILTER } from '../actions/notificationActionTypes';
 
 describe('task_4 notificationReducer (Immutable + normalizr)', () => {
   it('normalizes and merges notifications', () => {

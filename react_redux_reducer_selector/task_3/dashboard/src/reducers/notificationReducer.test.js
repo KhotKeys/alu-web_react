@@ -1,5 +1,5 @@
 import notificationReducer from './notificationReducer';
-import { FETCH_NOTIFICATIONS_SUCCESS, MARK_AS_READ, SET_TYPE_FILTER } from '../../actions/notificationActionTypes';
+import { FETCH_NOTIFICATIONS_SUCCESS, MARK_AS_READ, SET_TYPE_FILTER } from '../actions/notificationActionTypes';
 
 describe('notificationReducer task_3', () => {
   it('handles FETCH_NOTIFICATIONS_SUCCESS', () => {

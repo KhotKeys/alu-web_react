@@ -1,6 +1,6 @@
 import { Map, fromJS } from 'immutable';
 import { coursesNormalizer } from '../schema/courses';
-import { FETCH_COURSE_SUCCESS, SELECT_COURSE, UNSELECT_COURSE } from '../../task_2/dashboard/src/actions/courseActionTypes';
+import { FETCH_COURSE_SUCCESS, SELECT_COURSE, UNSELECT_COURSE } from '../actions/courseActionTypes';
 
 const initialState = Map({ entities: Map(), result: [] });
 
